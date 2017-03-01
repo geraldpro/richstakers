@@ -1,0 +1,203 @@
+/*------------------------------------------------------------------
+    heading
+-------------------------------------------------------------------*/
+
+
+.heading-title {
+    margin-bottom: 100px;
+}
+
+.heading-title-alt {
+    margin-bottom: 50px;
+}
+
+.heading-title span,
+.heading-title-alt span {
+    color: #7e7e7e;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.heading-title.dark span,
+.heading-title-alt.dark span {
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.heading-title h1,
+.heading-title h2,
+.heading-title h3,
+.heading-title h4,
+.heading-title h5,
+.heading-title h6,
+.heading-title-alt h1,
+.heading-title-alt h2,
+.heading-title-alt h3,
+.heading-title-alt h4 {
+    margin-bottom: 0;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+.heading-title-alt h5,
+.heading-title-alt h6 {
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.heading-title.dark h1,
+.heading-title.dark h2,
+.heading-title.dark h3,
+.heading-title.dark h4,
+.heading-title.dark h5,
+.heading-title.dark h6,
+.heading-title-alt.dark h1,
+.heading-title-alt.dark h2,
+.heading-title-alt.dark h3,
+.heading-title-alt.dark h4,
+.heading-title-alt.dark h5,
+.heading-title-alt.dark h6 {
+    color: #fff;
+}
+
+.heading-title span.heading-sub-title ,
+.heading-title-alt span.heading-sub-title {
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.heading-border-bottom {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 20px;
+}
+
+.heading-title-side-border {
+    overflow: hidden;
+    display: table;
+    margin-bottom: 30px;
+}
+
+.heading-title-side-border h1,
+.heading-title-side-border h2,
+.heading-title-side-border h3,
+.heading-title-side-border h4,
+.heading-title-side-border h5,
+.heading-title-side-border h6{
+    white-space: pre;
+    padding: 0 10px 0 0;
+    margin-bottom: 0;
+}
+
+.heading-title-side-border.text-right h1,
+.heading-title-side-border.text-right h2,
+.heading-title-side-border.text-right h3,
+.heading-title-side-border.text-right h4,
+.heading-title-side-border.text-right h5,
+.heading-title-side-border.text-right h6{
+    white-space: pre;
+    padding: 0 0px 0 10px;
+}
+
+.heading-title-side-border h4,
+.heading-title-side-border h5,
+.heading-title-side-border h6{
+    padding: 0 10px 0 0;
+}
+
+.heading-title-side-border .title-border-container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+}
+
+.heading-title-side-border .title-border-container .title-border {
+    display: block;
+    border-bottom: 1px solid #e2e2e2;
+    width: 100%;
+    position: relative;
+    top: 8px;
+}
+
+.heading-title-side-border h1 + .title-border-container .title-border  {
+    top: 12px;
+}
+
+.heading-title-side-border h4 + .title-border-container .title-border  {
+    top: 6px;
+}
+
+.heading-title-side-border h5 + .title-border-container .title-border  {
+    top: 5px;
+}
+
+.heading-title-side-border h6 + .title-border-container .title-border  {
+    top: 4px;
+}
+
+.heading-title.border h1,
+.heading-title.border h2,
+.heading-title.border h3,
+.heading-title.border h4,
+.heading-title.border h5,
+.heading-title.border h6,
+
+.heading-title-alt.border h1,
+.heading-title-alt.border h2,
+.heading-title-alt.border h3,
+.heading-title-alt.border h4,
+.heading-title-alt.border h5,
+.heading-title-alt.border h6 {
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.heading-title.border span,
+.heading-title-alt.border span
+{
+    display:block;
+}
+
+.border-short-bottom h1,
+.border-short-bottom h2,
+.border-short-bottom h3,
+.border-short-bottom h4,
+.border-short-bottom h5,
+.border-short-bottom h6
+{
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.border-short-bottom h1:after,
+.border-short-bottom h2:after,
+.border-short-bottom h3:after,
+.border-short-bottom h4:after,
+.border-short-bottom h5:after,
+.border-short-bottom h6:after
+{
+    width: 60px;
+    height: 2px;
+    background: #595959;
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    margin-left: -31px;
+    content: '';
+}
+
+.half-txt {
+    width: 60%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 25px;
+    color: #7e7e7e;
+}

@@ -1,0 +1,151 @@
+/*------------------------------------------------------------------
+    buttons
+-------------------------------------------------------------------*/
+
+.btn-large {
+    padding: 20px 40px;
+    font-size: 16px;
+}
+
+.btn-medium {
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-small {
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-extra-small {
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.btn {
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 0;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*.btn.focus, .btn:focus, .btn:hover{*/
+    /*color: #fff !important;*/
+/*}*/
+
+.btn.btn-default.focus, .btn.btn-default:focus, .btn.btn-default:hover{
+    color: #222;
+}
+
+.btn-rounded {
+    border-radius: 4px;
+}
+
+.btn-circle {
+    border-radius: 30px;
+}
+
+/*dark*/
+
+.dark-bg {
+    background: #1b1b1b;
+}
+
+.btn-dark-solid {
+    background: #222;
+    color: #fff;
+}
+
+
+.btn-theme-color,
+.btn-dark-solid:hover,
+.btn-dark-solid:focus,
+.btn-theme-border-color:hover {
+    color: #fff;
+}
+
+.btn-theme-color:hover,
+.btn-theme-color:focus {
+    background: #000;
+    color: #fff;
+}
+
+.btn-theme-color.light-hover:hover,
+.btn-theme-color.light-hover:focus {
+    background: #fff !important;
+    color: #222 !important;
+}
+
+.btn-dark-solid.btn-transparent {
+    background: rgba(0,0,0,.10);
+    color: #222;
+}
+
+/*dark border button*/
+
+.btn-dark-border {
+    background: transparent;
+    border: 1px solid #222;
+    color: #222;
+}
+
+.btn-dark-border.btn-transparent {
+    background: transparent;
+    border: 1px solid rgba(0,0,0,.15);
+    color: #222;
+}
+
+.btn-dark-border:hover {
+    background: #222;
+    border: 1px solid #222;
+    color: #fff;
+}
+
+/*light*/
+
+
+.btn-light-solid {
+    background: #fff;
+    color: #222;
+}
+
+.btn-light-solid:hover,
+.btn-light-solid:focus {
+    color: #fff;
+}
+
+.btn-light-solid.btn-transparent {
+    background: rgba(255,255,255,.20);
+    color: #fff;
+}
+
+.btn-dark-solid:hover.btn-transparent:hover {
+    background: #222;
+    color: #fff !important;
+}
+
+
+/*light border button*/
+
+.btn-light-border {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-light-border.btn-transparent {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,.15);
+    color: #fff;
+}
+
+.btn-light-border:hover, .btn-light-border:focus {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #222 !important;
+}

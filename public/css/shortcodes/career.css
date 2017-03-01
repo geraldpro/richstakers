@@ -1,0 +1,85 @@
+/*------------------------------------------------------------------
+    career-box
+-------------------------------------------------------------------*/
+
+
+.career-list {
+    position: relative;
+}
+
+.career-box {
+    border: 1px solid #eaeaea;
+    padding: 50px 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background: #fff;
+}
+
+a.show-detail {
+    margin-top: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #cbcbcb;
+    font-size: 12px;
+}
+
+a.show-detail:after{
+    content:"\f178";
+    font-family: 'FontAwesome';
+    padding-left: 10px;
+}
+
+.career-details-info {
+    display: none;
+}
+
+.career-details-info {
+    padding: 30px 0 0 0;
+    background: #fff;
+    z-index: 1;
+}
+
+.career-details-info {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.career-details-info .c-list-row {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.career-details-info .c-list-row label {
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 3px;
+}
+
+.career-details-info .c-list-row .info {
+    padding-left: 100px;
+    font-size: 14px;
+    color: #7e7e7e;
+}
+
+.career-details-info .c-list-row ul {
+    padding: 0;
+}
+
+.career-details-info .c-list-row ul li {
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #7e7e7e;
+}
+
+.career-form .form-control {
+    box-shadow: none;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 30px;
+}
+
+.career-form label {
+    font-weight: normal;
+}

@@ -1,0 +1,145 @@
+/*------------------------------------------------------------------
+    clients
+-------------------------------------------------------------------*/
+
+.clients {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.clients li {
+    float: left;
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.clients li a img {
+    width: 100%;
+}
+
+.clients li a, .clients li img {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clients.grid-2 li {
+    width: 50%;
+}
+
+.clients.grid-3 li {
+    width: 33.33%;
+}
+
+.clients.grid-4 li {
+    width: 25%;
+}
+
+.clients.grid-5 li {
+    width: 20%;
+}
+
+.clients.grid-6 li {
+    width: 16.66%;
+}
+
+/**/
+
+.clients.angle-box.grid-2 li {
+    width: 46%;
+}
+
+.clients.angle-box.grid-3 li {
+    width: 29.33%;
+}
+
+.clients.angle-box.grid-4 li {
+    width: 21%;
+}
+
+.clients.angle-box.grid-5 li {
+    width: 16%;
+}
+
+.clients.angle-box.grid-6 li {
+    width: 12.66%;
+}
+
+.clients.angle-box.grid-2 li ,
+.clients.angle-box.grid-3 li ,
+.clients.angle-box.grid-4 li ,
+.clients.angle-box.grid-5 li ,
+.clients.angle-box.grid-6 li {
+    margin: 2%;
+}
+
+
+/**/
+
+
+.clients.plus-box li:before {
+    height: 100%;
+    top: 0;
+    right: -2px;
+    border-right: 1px solid #DDD;
+}
+
+.clients.plus-box li:after  {
+    width: 100%;
+    height: 0;
+    top: auto;
+    right: 0;
+    bottom: -1px;
+    border-bottom: 1px solid #DDD;
+}
+
+
+.clients.plus-box li:after,
+.clients.plus-box li:before,
+.clients.angle-box li:after,
+.clients.angle-box li:before {
+    content: '';
+    position: absolute;
+}
+
+
+/**/
+
+#clients-1 .item {
+    margin: 20px;
+}
+
+#clients-1 .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#clients-1.owl-theme .owl-controls .owl-page span {
+    background: #333;
+}
+
+/**/
+
+
+.clients.angle-box li:before {
+    height: 100%;
+    top: 0;
+    right: 1px;
+    border-right: 1px solid #DDD;
+}
+
+
+.clients.angle-box li:after  {
+    width: 100%;
+    height: 0;
+    top: auto;
+    right: 1px;
+    bottom: 1px;
+    border-bottom: 1px solid #DDD;
+}

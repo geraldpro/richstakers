@@ -1,0 +1,131 @@
+/*------------------------------------------------------------------
+green theme  Stylesheet
+-------------------------------------------------------------------*/
+
+
+::selection {
+    background: #bcbb35;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #bcbb35; /* Firefox */
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: #bcbb35; /* Safari */
+    color: #FFF;
+    text-shadow: none;
+}
+
+
+a,
+.menuzord .menuzord-menu>li.active>a,
+.menuzord .menuzord-menu>li.active>a>i,
+.menuzord .menuzord-menu>li:hover>a,
+.menuzord .menuzord-menu>li:hover>a>i,
+.portfolio-with-title .portfolio-title h4 a:hover,
+.f-link:hover,
+#footer .f-list li a:hover,
+.featured-item.border-box:hover .icon i,
+.post-single .post-cat li a:hover,
+.post-single .post-desk h4 a:hover,
+.post-single .post-desk a.author:hover,
+.post-list .post-single .post-cat li a,
+.portfolio-description a:hover,
+.portfolio-title a:hover,
+.post-sub-title,
+.team-member .s-link a:hover,
+.t-s-link a:hover,
+.price-col.feature h1,
+.widget-category li a:hover,
+.widget-comments li a:hover,
+.blog-classic .blog-post h4 a:hover,
+.post-meta li a:hover,
+.widget-latest-post .w-desk a:hover,
+.comments-list .comment-author a:hover,
+.comments-list .comment-item-data a:hover ,
+.product-title h5 a:hover,
+.comments-list .comment-info a:hover,
+.portfolio-with-title.blog-m .portfolio-title .date a:hover,
+.comments-list .comment-info .comment-author a:hover,
+.icon-tabs .nav-pills>li>a:hover,
+.icon-tabs .nav-pills>li.active>a,
+.icon-tabs .nav-pills>li.active>a:focus,
+.icon-tabs .nav-pills>li.active>a:hover,
+.cd-nav .cd-primary-nav li.selected a,
+.no-touch .cd-nav .cd-primary-nav a:hover,
+.intro-portfolio a:hover{
+    color: #bcbb35 ;
+}
+
+.theme-color,
+.massive-progress.progress-theme-color .progress-bar,
+.massive-progress.progress-theme-color .progress-bar > span
+{
+    color: #bcbb35 !important;
+}
+
+.theme-bg,
+.massive-progress.progress-theme-color .progress-bar,
+.massive-progress-alt.progress-theme-color .progress-bar,
+.ei-slider-thumbs li.ei-slider-element
+{
+    background: #bcbb35 !important;
+}
+
+.btn-theme-border-color,
+.widget-social-link a:hover,
+.widget-tags a:hover {
+    border:1px solid #bcbb35 ;
+}
+
+.nav-border-bottom .menuzord .menuzord-menu>li.active>a,
+.nav-border-bottom .menuzord .menuzord-menu>li:hover>a,
+.icon-tabs .nav-pills>li>a:hover,
+.icon-tabs .nav-pills>li.active>a,
+.icon-tabs .nav-pills>li.active>a:focus,
+.icon-tabs .nav-pills>li.active>a:hover {
+    border-bottom:1px solid #bcbb35;
+}
+
+.nav-border-box .menuzord-menu > li.active > a,
+.nav-border-box .menuzord-menu > li:hover > a,
+.btn-theme-border-color:hover,
+.price-col.feature .p-btn:hover,
+.side-social-link a:hover{
+    border:1px solid #bcbb35;
+}
+
+.nav-boxed-color .menuzord-menu > li.active > a,
+.nav-boxed-color .menuzord-menu > li:hover > a,
+.accordion.time-line > dt > a:hover:after,
+.accordion.time-line > dt > a.active:after,
+.accordion.time-line > dt > a.active:hover:after,
+.toggle.time-line > dt > a:hover:after,
+.toggle.time-line > dt > a.active:after,
+.toggle.time-line > dt > a.active:hover:after,
+.btn-dark-solid:hover,
+.btn-dark-solid:focus,
+.btn-theme-color ,
+.btn-theme-border-color:hover,
+.btn-light-solid:hover,
+.feature-border-box:hover .icon,
+.price-col.feature .p-btn:hover,
+.side-social-link a:hover,
+.widget-social-link a:hover,
+.widget-tags a:hover,
+.sale-label,
+.stock .status,
+#tb-scroll-to-top:hover{
+    background: #bcbb35 ;
+}
+
+
+.menuzord .menuzord-menu ul.dropdown li:hover>a,
+.menuzord-menu>li>.megamenu .megamenu-row li:hover>a {
+    color: #fff;
+}

@@ -1,0 +1,136 @@
+/*------------------------------------------------------------------
+    login
+-------------------------------------------------------------------*/
+
+.login {
+    position: relative;
+}
+
+.login .form-control {
+    box-shadow: none;
+    height: 40px;
+}
+
+.login .form-group {
+    margin-bottom: 20px;
+}
+
+.login .form-group label {
+    font-weight: normal;
+}
+
+.login .container{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -330px;
+}
+
+.login.register .container{
+    position: static;
+    top: auto;
+    width: 100%;
+    margin-top:  0px;
+}
+
+.login-bg {
+    background: #f5f5f5;
+    height: 100vh;
+}
+
+.login-parallax {
+    background-image: url("../../img/parallax/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login-parallax .login-box {
+    background: rgba(255,255,255,0.9);
+}
+
+.login-box {
+    width: 450px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+}
+
+.login-box.gray-bg {
+    background: #f5f5f5;
+    width: auto;
+}
+
+.login-logo {
+    padding: 50px 0;
+}
+
+.full-width {
+    width: 100%;
+    position: relative;
+}
+
+.login-social-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.login-social-link a.facebook {
+    background: #3b5999;
+    margin-right: 22px;
+    float: left;
+}
+
+.login-social-link a.facebook:hover {
+    background: #30497d;
+    color: #fff;
+}
+
+.login-social-link a {
+    color: #fff;
+    padding: 10px 38px;
+    border-radius: 4px;
+    width: 47%;
+    text-align: center;
+}
+
+.login-social-link a.twitter {
+    background: #63c6ff;
+    float: left;
+}
+
+.login-social-link a.twitter:hover {
+    background: #4c98c4;
+    color: #fff;
+}
+
+.copyright-row {
+    color: #fff;
+    margin-top: 20px;
+}
+
+/**/
+
+.login-accordion > dd {
+    padding: 10px 0;
+}
+
+
+.login-accordion .login .form-control,
+.tab-pane .form-control {
+    border-radius: 0;
+}
+
+.dark-txt {
+    color: #222;
+}
+
+.border-less-input input {
+    border: none;
+}
+
+.login-bg-input input {
+    background: #f5f5f5;
+}

@@ -1,0 +1,151 @@
+/*------------------------------------------------------------------
+    subscribe
+-------------------------------------------------------------------*/
+
+.subscribe-box {
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+.subscribe-box,
+.full-width.subscribe-box .container {
+    position: relative;
+}
+
+.subscribe-box h1,
+.subscribe-box h2,
+.subscribe-box h3,
+.subscribe-box h4,
+.subscribe-box h5,
+.subscribe-box h6 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+.text-center .subscribe-info span,
+.text-center .subscribe-info {
+    display: inline-block;
+}
+
+.subscribe-info,
+.subscribe-form {
+    float: left;
+}
+
+.subscribe-info {
+    width: 40%;
+}
+
+.subscribe-form {
+    width: 60%;
+}
+
+.subscribe-form input {
+    height: 52px;
+    width: 75% !important;
+    background: #fff;
+    border: 1px solid #FFFFFF;
+    box-shadow: none;
+}
+
+.subscribe-form input:focus {
+    box-shadow: none;
+    border: 1px solid #222;
+}
+
+.subscribe-form .btn {
+    margin-right: 0;
+    float: right;
+}
+
+.text-center .subscribe-info {
+    padding-right: 0px;
+}
+
+.subscribe-box.text-center .subscribe-info,
+.subscribe-box.text-center .subscribe-form {
+    width: 100%;
+}
+
+.subscribe-box.text-center .subscribe-info {
+    margin-bottom: 50px;
+}
+
+.subscribe-box.text-center .subscribe-form input,
+.subscribe-box.text-center .subscribe-form .btn{
+    display: inline-block;
+    float: none;
+    border: none;
+    margin: 0 5px;
+}
+
+
+.subscribe-box.dark-bg .subscribe-form input,
+.subscribe-box.border-box .subscribe-form input{
+    border: none;
+}
+
+
+.subscribe-info h1 span,
+.subscribe-info h2 span,
+.subscribe-info h3 span,
+.subscribe-info h4 span,
+.subscribe-info h5 span,
+.subscribe-info h6 span {
+    margin-top: 0px;
+    display:inline;
+}
+
+.subscribe-info span {
+    margin-top: 10px;
+    display: block;
+    color: #7e7e7e;
+}
+
+.subscribe-box.border-box .subscribe-form input,
+.subscribe-box.gray-bg {
+    background: #f8f8f8;
+}
+
+.subscribe-box.dark-bg {
+    background: #222;
+}
+
+.light-txt {
+    color: #fff !important;
+}
+
+.round-5 {
+    border-radius: 5px;
+}
+
+.text-center .subscribe-info span {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.subscribe-box a.btn {
+    padding: 15px 30px;
+}
+
+.subscribe-box.border-box {
+    border: 1px solid #ececec;
+}
+
+.full-width.subscribe-box {
+    padding: 40px 0;
+}
+
+
+.full-width.subscribe-box .promo-btn {
+    right: 0px;
+}
+
+
+.radius-less {
+    border-radius: 0 !important;
+}

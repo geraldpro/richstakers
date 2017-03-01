@@ -1,0 +1,199 @@
+/*------------------------------------------------------------------
+    page title
+-------------------------------------------------------------------*/
+
+
+.page-title {
+    position: relative;
+    padding: 50px 0;
+    background-color: #F5F5F5;
+}
+
+
+.page-title h1,
+.page-title h2,
+.page-title h3,
+.page-title h4,
+.page-title h5{
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+
+.page-title span {
+    margin-top: 5px;
+    display: block;
+    color: #929294;
+}
+
+
+.page-title .container {
+    position: relative;
+}
+
+
+.page-title .breadcrumb {
+    position: absolute;
+    background-color: transparent;
+    width: auto;
+    top: 50%;
+    left: auto;
+    right: 30px ;
+    margin: -10px 0 0 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.page-title .breadcrumb li {
+    letter-spacing: 1px;
+}
+
+.page-title .breadcrumb.box {
+    background: rgba(0,0,0,.5);
+    padding: 15px;
+    margin-top: -20px;
+}
+
+
+.page-title .breadcrumb.box a:hover {
+    color: #fff;
+}
+
+
+/* ----------------------------------------------------------------
+	dark page title
+-----------------------------------------------------------------*/
+
+.page-title.dark {
+    background: #222;
+}
+
+
+.page-title.dark h1,
+.page-title.dark h2,
+.page-title.dark h3,
+.page-title.dark h4,
+.page-title.dark h5,
+.page-title.dark .breadcrumb>.active{
+    color: #fff;
+}
+
+.page-title.dark span {
+    color: #7e7e7e;
+}
+
+.page-title.dark .breadcrumb>li+li:before {
+    /*color: #7e7e7e;*/
+}
+
+
+.page-title.dark .breadcrumb li > a:hover {
+    color: #fff;
+}
+
+/* ----------------------------------------------------------------
+	no background page title
+-----------------------------------------------------------------*/
+
+.page-title.no-bg {
+    background: none;
+    border-top:1px solid #f5f5f5;
+    border-bottom:1px solid #f5f5f5;
+}
+
+
+/* ----------------------------------------------------------------
+	 background page title
+-----------------------------------------------------------------*/
+
+.page-title.background-title {
+    background-image: url(../../img/parallax/1.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    height: auto;
+}
+
+
+/* ----------------------------------------------------------------
+	 big background page title
+-----------------------------------------------------------------*/
+
+.page-title.banner-background {
+    background-image: url(../../img/about/02.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    height: 630px;
+}
+
+
+/* ----------------------------------------------------------------
+	 parallax page title
+-----------------------------------------------------------------*/
+
+.page-title.parallax-title {
+    background-image: url(../../img/parallax/2.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    height: auto;
+}
+
+
+/* ----------------------------------------------------------------
+	 pattern page title
+-----------------------------------------------------------------*/
+
+.page-title.pattern-title {
+    background-image: url(../../img/pattern.png);
+    background-repeat: repeat;
+    height: auto;
+}
+
+
+/* ----------------------------------------------------------------
+	 mini page title
+-----------------------------------------------------------------*/
+
+.page-title.mini-title {
+    padding: 25px 0;
+}
+
+
+/* ----------------------------------------------------------------
+	 center page title
+-----------------------------------------------------------------*/
+
+.page-title.page-title-center {
+    text-align: center;
+}
+
+.page-title.page-title-center .breadcrumb {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 20px 0 0 0;
+}
+
+
+/* ----------------------------------------------------------------
+	 right page title
+-----------------------------------------------------------------*/
+
+.page-title.page-title-right {
+    text-align: right;
+}
+
+.page-title.page-title-right .breadcrumb {
+    left: 30px;
+    right: auto;
+}
+

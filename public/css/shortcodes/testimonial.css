@@ -1,0 +1,266 @@
+/*------------------------------------------------------------------
+    testimonial
+-------------------------------------------------------------------*/
+
+
+.testimonial {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.testimonial li {
+    float: left;
+    position: relative;
+    padding: 40px;
+    height: 280px;
+}
+
+
+.testimonial.grid-2 li {
+    width: 50%;
+}
+
+/**/
+
+.testimonial.plus-box li:before {
+    height: 100%;
+    top: 0;
+    right: -2px;
+    border-right: 1px solid #ececec;
+}
+
+.testimonial.plus-box li:after  {
+    width: 100%;
+    height: 0;
+    top: auto;
+    right: 0;
+    bottom: -1px;
+    border-bottom: 1px solid #ececec;
+}
+
+
+.testimonial.plus-box li:after,
+.testimonial.plus-box li:before {
+    content: '';
+    position: absolute;
+}
+
+
+/*----*/
+
+.testimonial .avatar,
+.testimonial .avatar a,
+.testimonial .avatar i,
+.testimonial .avatar img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+
+#testimonial-2 .avatar,
+#testimonial-2 .avatar a,
+#testimonial-2 .avatar i,
+#testimonial-2 .avatar img,
+
+#testimonial-3 .avatar,
+#testimonial-3 .avatar a,
+#testimonial-3 .avatar i,
+#testimonial-3 .avatar img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.testimonial .avatar {
+    float: left;
+    margin-right: 35px;
+}
+
+.testimonial .content {
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial .content p{
+    color: #7e7e7e;
+}
+
+.testimonial-meta {
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #222222;
+    letter-spacing: 2px;
+
+}
+
+.testimonial-meta span {
+    display: block;
+    font-size: 12px;
+    color: #7f7f7f;
+}
+
+
+.light-txt .testimonial-meta,
+.light-txt .testimonial-meta span{
+    color: #fff;
+
+}
+
+
+/*-------*/
+
+#testimonial-2 .item {
+    margin: 20px;
+    text-align: center;
+}
+
+#testimonial-2 .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#testimonial-2.owl-theme .owl-controls .owl-page span {
+    background: #cecece;
+}
+
+.light-txt.owl-theme .owl-controls .owl-page span {
+    background: #cecece;
+}
+
+#testimonial-3.owl-theme .owl-controls .owl-page span {
+    width: 30px;
+    height: 5px;
+}
+
+#testimonial-2 .item .icon,
+#testimonial-3 .item .icon{
+    margin-bottom: 30px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.big-icon .item .icon {
+    font-size: 60px !important;
+}
+
+
+#testimonial-2 .content p,
+#testimonial-3 .content p,
+.light-txt .content p{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.light-txt.owl-theme .owl-controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.outer-border {
+    border: 1px solid #ececec;
+    padding: 30px;
+}
+
+.tst-thumb {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+
+/**/
+
+.testimonial-parallax {
+    background-image: url("../../img/parallax/2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.testimonial-alt .testi-auth .avatar {
+    float: left;
+    margin-right: 30px;
+}
+
+.testimonial-alt .content {
+    background: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+}
+
+.testimonial-alt .content:after {
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+    border-image: none;
+    border-right: 1px solid #f5f5f5;
+    border-style: none;
+    bottom: -7px;
+    content: "";
+    display: block;
+    height: 14px;
+    left: 25px;
+    position: absolute;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 15px;
+}
+
+.testimonial-alt .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-alt .testi-auth .testimonial-meta {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.testimonial-alt .testi-auth .avatar,
+.testimonial-alt .testi-auth .avatar a,
+.testimonial-alt .testi-auth .avatar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+#testimonial-4.owl-theme .owl-controls .owl-page span {
+    background: #cecece;
+    width: 8px;
+    height: 8px;
+}
+
+.left-align {
+    text-align: left !important;
+}
+
+.testimonial-thumb {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.testimonial-thumb img {
+    width: 100%;
+    height: auto;
+}

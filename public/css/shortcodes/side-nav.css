@@ -1,0 +1,205 @@
+/*------------------------------------------------------------------
+    left side nav fixed
+-------------------------------------------------------------------*/
+
+body.left-nav-fixed {
+    overflow-x: hidden;
+}
+
+.left-nav-fixed .wrapper  {
+    margin-left: 260px;
+}
+
+.left-nav-fixed .logo-area  {
+    padding: 40px 20px;
+    display: inline-block;
+    width: 100%;
+}
+.left-nav-fixed .logo-brand  {
+    float: none;
+    margin: 0;
+}
+
+.left-nav-fixed #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    width: 260px;
+    height: 100%;
+    background-color: #FFF;
+    border-right: 1px solid #eee;
+}
+
+.border-less {
+    border: none !important;
+}
+
+
+.left-nav-fixed header.header-full-width .container,
+.left-nav-fixed header .container {
+    width: 100%;
+    padding: 0;
+}
+
+.left-nav-fixed .container {
+    width: auto;
+    padding: 0 30px;
+}
+
+.left-nav-fixed .menuzord-menu>li>a,
+.left-nav-fixed header.sticky .menuzord-menu>li>a {
+    padding: 0;
+}
+
+.left-nav-fixed .menuzord-menu li,
+.left-nav-fixed .menuzord-menu li a{
+    width: 100%;
+}
+
+.left-nav-fixed  .menuzord-menu>li>a {
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+.left-nav-fixed .menuzord-menu li ul {
+    margin-left: 258px;
+    margin-top: -40px;
+}
+
+.left-nav-fixed .menuzord-menu li .megamenu-row ul {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.left-nav-fixed  .menuzord-menu>li>.megamenu {
+    width: 800px;
+    padding: 20px;
+    left: 260px;
+    position: absolute;
+    display: none;
+    z-index: 99;
+    border-top: none;
+    background: none;
+    margin-top: -40px;
+    background: #222;
+}
+
+
+.left-nav-fixed header .light-header,
+.left-nav-fixed header.sticky .light-header,
+.left-nav-fixed #header.transparent-header.sticky .light-header,
+.left-nav-fixed .light-nav {
+    background: none !important;
+}
+
+.left-nav-fixed header.sticky .header-sticky {
+    box-shadow: none;
+}
+
+.left-nav-fixed header.sticky .header-sticky,
+.left-nav-fixed header.transparent-header {
+    position: static;
+    width: 100%;
+}
+
+
+.left-nav-fixed .menuzord-menu>li>a,
+.left-nav-fixed header.sticky .menuzord-menu>li>a,
+.left-nav-fixed .logo-brand, header.sticky .logo-brand,
+.left-nav-fixed header li.nav-icon i,
+.left-nav-fixed header.sticky li.nav-icon i {
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+.left-nav-fixed .menuzord-menu li .indicator {
+    margin-left: 3px;
+    float: right;
+}
+
+.side-social-link {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.side-social-link a {
+    display: inline-block;
+    margin: 0 2px;
+    color: #bababa;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #bababa;
+    border-radius: 50%;
+}
+
+.side-social-link a:hover {
+    color: #fff;
+}
+
+
+
+.left-nav-fixed .menuzord-menu>li>a {
+    color: #222;
+}
+
+/*dark nav*/
+
+
+.left-nav-fixed.dark-side-nav #header {
+    background-color: #333;
+    border-right: none;
+}
+
+
+.left-nav-fixed.dark-side-nav .menuzord-menu>li>a {
+    color: #fff;
+}
+
+/*nav toggle*/
+
+.side-nav-toggle {
+    position: absolute;
+    right: -50px;
+    top: 15px;
+    background-color: #fff;
+    padding: 5px 10px;
+    color: #222;
+}
+
+.side-nav-close .wrapper {
+    margin-left: 0px !important;
+}
+
+.side-nav-close #header {
+    left: -260px !important;
+}
+
+
+.side-nav-open .wrapper {
+    margin-left: 260px;
+}
+
+.side-nav-open #header {
+    left: 0px;
+}
+
+/*side-push-nav*/
+
+.side-push-nav .container {
+    width: 1170px;
+}
+
+.side-push-nav .wrapper,
+.side-push-nav #header {
+    transition:all 0.3s ease;
+    -webkit-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    -mos-transition:all 0.3s ease;
+}
+

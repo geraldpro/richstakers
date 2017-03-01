@@ -1,0 +1,30 @@
+/*------------------------------------------------------------------
+    list style
+-------------------------------------------------------------------*/
+
+
+.circle-list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.circle-list li {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.circle-list li:before {
+    content:"\f10c";
+    font-family: 'fontawesome';
+    font-size: 14px;
+    float: left;
+    padding-right: 10px;
+    color: #757575;
+}
+
+/*list half*/
+
+.list-half li {
+    width: 50%;
+    float: left;
+}

@@ -1,0 +1,58 @@
+/*------------------------------------------------------------------
+    icon list
+-------------------------------------------------------------------*/
+
+.icon-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.icon-list li{
+    line-height: 30px;
+}
+
+.icon-list li i{
+    width: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon-border li i{
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.icon-border li,
+.icon-bg-box li,
+.icon-dark li {
+    margin-bottom: 10px;
+}
+
+.icon-bg-box li i{
+    background: #ddd;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.icon-dark li i{
+    background: #222;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.circle li i{
+    border-radius: 50%;
+}
+
+.radius li i{
+    border-radius: 4px;
+}

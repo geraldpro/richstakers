@@ -1,0 +1,95 @@
+
+/* ----------------------------------------------------------------
+	countdown
+-----------------------------------------------------------------*/
+
+.count-down,
+.count-down-alt {
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+}
+
+.count-down .c-grid,
+.count-down-alt .c-grid {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 42px;
+    margin: 0 20px;
+}
+
+.count-down.light-bg .c-grid,
+.count-down-alt.light-bg .c-grid {
+    background: #fff;
+}
+
+.count-down-alt .c-grid {
+    border: 5px solid rgba(0,0,0,.2);
+}
+
+.count-down .c-grid  {
+    border: 1px solid #e0e0e0;
+}
+
+.count-down .c-grid,
+.count-down.light .c-grid  {
+    border: 1px solid #fff;
+}
+
+.count-down.light .c-value,
+.count-down.light .c-title,
+.count-down-alt.light .c-value,
+.count-down-alt.light .c-title {
+    color: #fff;
+}
+
+.count-down .c-value,
+.count-down .c-title,
+.count-down-alt .c-value,
+.count-down-alt .c-title {
+    display: block;
+}
+
+.count-down .c-value,
+.count-down-alt .c-value {
+    font-size: 30px;
+}
+
+.count-down .c-title,
+.count-down-alt .c-title {
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.count-down.circle .c-grid,
+.count-down-alt.circle .c-grid  {
+    border-radius: 50% !important;
+}
+
+.count-down.round .c-grid,
+.count-down-alt.round .c-grid  {
+    border-radius: 5px !important;
+}
+
+.count-parallax {
+    background-image: url("../../img/parallax/5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.count-icon {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.count-icon i {
+    font-size: 40px;
+}

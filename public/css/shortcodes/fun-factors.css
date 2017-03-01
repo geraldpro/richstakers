@@ -1,0 +1,197 @@
+/*------------------------------------------------------------------
+    fun factors
+-------------------------------------------------------------------*/
+
+.fun-factor {
+
+}
+
+.fun-factor .icon {
+    float: left;
+    margin-top: 10px;
+}
+
+.fun-factor .icon i {
+    font-size: 36px;
+    color: #222;
+}
+
+.fun-factor .fun-info {
+    padding-left: 100px;
+}
+
+.fun-factor .fun-info span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Abel', sans-serif;
+}
+
+.fun-factor .fun-info h1,
+.fun-factor .fun-info h2,
+.fun-factor .fun-info h3,
+.fun-factor .fun-info h4,
+.fun-factor .fun-info h5,
+.fun-factor .fun-info h6
+{
+    margin-bottom: 0;
+    color: #222;
+    font-weight: normal;
+}
+
+.fun-factor .fun-info {
+    position: relative;
+}
+
+.fun-factor .fun-info:before {
+    content: '';
+    background: rgba(0,0,0,.20);
+    width: 1px;
+    height: 80px;
+    position: absolute;
+    left: 75px;
+    top: 0;
+    transform: rotate(30deg);
+}
+
+
+.fun-factor-parallax {
+    background-image: url(../../img/parallax/2.jpg);
+    background-repeat: repeat;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.dark .fun-factor .icon i,
+.dark .fun-factor .fun-info h1,
+.dark .fun-factor .fun-info h2,
+.dark .fun-factor .fun-info h3,
+.dark .fun-factor .fun-info h4,
+.dark .fun-factor .fun-info h5,
+.dark .fun-factor .fun-info h6,
+.dark .fun-factor .fun-info span{
+    color: #fff;
+}
+
+.dark .fun-factor .fun-info:before {
+    background: rgba(255,255,255,.40);
+}
+
+
+/**/
+
+.fun-factor.alt {
+    text-align: center;
+}
+
+.fun-factor.alt .fun-info {
+    padding-left: 0px;
+}
+
+.fun-factor.alt .icon {
+    float: none;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.fun-factor.alt .fun-info:before {
+    content: '';
+    background: none;
+}
+
+.gray-bg {
+    background: #f5f5f5;
+}
+
+.gray-border-factor .fun-factor {
+    padding: 100px 0;
+    border-top:1px solid #f5f5f5;
+    border-bottom:1px solid #f5f5f5;
+}
+
+.gray-border-factor.dark .fun-factor {
+    padding: 100px 0;
+    border-top:none;
+    border-bottom:none;
+}
+
+.gray-border-factor .f-grid:nth-child(2n+2) {
+    background-color: #f5f5f5;
+}
+
+.gray-border-factor.dark .f-grid {
+    background-color: #323232;
+}
+
+.gray-border-factor.dark .f-grid:nth-child(2n+2) {
+    background-color: #3a3a3a;
+}
+
+
+.gray-border-factor .col-lg-1,
+.gray-border-factor .col-lg-10,
+.gray-border-factor .col-lg-11,
+.gray-border-factor .col-lg-12,
+.gray-border-factor .col-lg-2,
+.gray-border-factor .col-lg-3,
+.gray-border-factor .col-lg-4,
+.gray-border-factor .col-lg-5,
+.gray-border-factor .col-lg-6,
+.gray-border-factor .col-lg-7,
+.gray-border-factor .col-lg-8,
+.gray-border-factor .col-lg-9,
+.gray-border-factor .col-md-1,
+.gray-border-factor .col-md-10,
+.gray-border-factor .col-md-11,
+.gray-border-factor .col-md-12,
+.gray-border-factor .col-md-2,
+.gray-border-factor .col-md-3,
+.gray-border-factor .col-md-4,
+.gray-border-factor .col-md-5,
+.gray-border-factor .col-md-6,
+.gray-border-factor .col-md-7,
+.gray-border-factor .col-md-8,
+.gray-border-factor .col-md-9,
+.gray-border-factor .col-sm-1,
+.gray-border-factor .col-sm-10,
+.gray-border-factor .col-sm-11,
+.gray-border-factor .col-sm-12,
+.gray-border-factor .col-sm-2,
+.gray-border-factor .col-sm-3,
+.gray-border-factor .col-sm-4,
+.gray-border-factor .col-sm-5,
+.gray-border-factor .col-sm-6,
+.gray-border-factor .col-sm-7,
+.gray-border-factor .col-sm-8,
+.gray-border-factor .col-sm-9,
+.gray-border-factor .col-xs-1,
+.gray-border-factor .col-xs-10,
+.gray-border-factor .col-xs-11,
+.gray-border-factor .col-xs-12,
+.gray-border-factor .col-xs-2,
+.gray-border-factor .col-xs-3,
+.gray-border-factor .col-xs-4,
+.gray-border-factor .col-xs-5,
+.gray-border-factor .col-xs-6,
+.gray-border-factor .col-xs-7,
+.gray-border-factor .col-xs-8,
+.gray-border-factor .col-xs-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.fun-icon-text-parallel .icon i,
+.fun-icon-text-parallel .icon h1 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.fun-icon-text-parallel .icon i {
+    padding-right: 10px;
+    font-size: 36px;
+}

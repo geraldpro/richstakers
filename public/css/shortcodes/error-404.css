@@ -1,0 +1,51 @@
+/*------------------------------------------------------------------
+    error 404
+-------------------------------------------------------------------*/
+.error-avatar {
+
+}
+
+.error404 {
+    color: #222222;
+    font-size: 140px;
+    line-height: 140px;
+    display: block;
+    margin-top: 20px;
+}
+
+.error-txt {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.error-info {
+    padding-left: 60px;
+    border-left: 1px solid #ddd;
+}
+
+.error-parallax {
+    background-image: url("../../img/parallax/404_parallax.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.error-parallax .error-avatar {
+    margin-top: 180px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.error-parallax .error-info {
+    padding-left: 0px;
+    border-left: none;
+}
+
+.error-parallax .error-info .error404,
+.error-parallax .error-info .error-txt {
+    color: #fff;
+}

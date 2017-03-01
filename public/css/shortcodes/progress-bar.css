@@ -1,0 +1,104 @@
+/*------------------------------------------------------------------
+    progress bar
+-------------------------------------------------------------------*/
+
+
+.massive-progress{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: visible;
+    height: 2px;
+    background: #EAE8E8;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.massive-progress .progress-bar{
+    padding-top: 2px;
+    position: relative;
+    overflow: visible;
+    background-color: #222;
+    font-size: 11px;
+    color: #7e7e7e;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: none;
+    line-height: 30px;
+}
+.massive-progress .progress-bar > span{
+    display: inline-block;
+    min-width: 25px;
+    height: 30px;
+    padding: 0 3px;
+    position: absolute;
+    top: 0px;
+    right: -5px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+
+/* Alt progress bar */
+
+.massive-progress-alt {
+    height: 30px;
+    margin-bottom: 30px;
+    background: #f2f2f2;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.massive-progress-alt .progress-bar {
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    overflow: visible;
+    background-color: #222;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+.massive-progress-alt .progress-bar span {
+    float:right;
+}
+
+.highlight pre{
+    border-color: #eaeaea;
+    background: #fcfcfc;
+    color: #555;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+
+.massive-progress-alt.progress-theme-color .progress-bar,
+.massive-progress-alt.progress-theme-color .progress-bar > span{
+    color: #fff;
+}
+
+
+.progress-light-trans-bg {
+    background: rgba(255,255,255,.1);
+}
+

@@ -1,0 +1,123 @@
+/*------------------------------------------------------------------
+    promo box
+-------------------------------------------------------------------*/
+
+.promo-box {
+    padding: 40px;
+    display: block;
+    width: 100%;
+}
+
+.promo-box,
+.text-center .promo-btn,
+.text-center .promo-btn a,
+.full-width.promo-box .container {
+    position: relative;
+}
+
+.promo-box h1,
+.promo-box h2,
+.promo-box h3,
+.promo-box h4,
+.promo-box h5,
+.promo-box h6 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+.text-center .promo-btn,
+.text-center .promo-btn a,
+.text-center .promo-info span,
+.text-center .promo-info {
+    display: inline-block;
+}
+
+.promo-info {
+    padding-right: 200px;
+}
+
+.text-center .promo-info {
+    padding-right: 0px;
+}
+
+
+.promo-info h1 span,
+.promo-info h2 span,
+.promo-info h3 span,
+.promo-info h4 span,
+.promo-info h5 span,
+.promo-info h6 span {
+    margin-top: 0px;
+    display:inline;
+}
+
+.promo-info span {
+    margin-top: 10px;
+    display: block;
+    color: #7e7e7e;
+}
+
+.promo-box.gray-bg {
+    background: #f5f5f5;
+}
+
+.promo-box.dark-bg {
+    background: #222;
+}
+
+.light-txt, .light-txt p {
+    color: #fff !important;
+}
+
+.round-5 {
+    border-radius: 5px;
+}
+
+.promo-btn {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    margin-top: -28px;
+}
+
+.promo-btn a.btn {
+    margin-right: 0px;
+}
+
+.text-center .promo-info span {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.promo-btn a.btn,
+.promo-box a.btn {
+    padding: 15px 30px;
+}
+
+.promo-box.border-box {
+    border: 1px solid #ececec;
+}
+
+.full-width.promo-box {
+    padding: 60px 0;
+}
+
+
+.full-width.promo-box .promo-btn {
+    right: 0px;
+}
+
+.promo-pattern {
+    background-image: url(../../img/pattern.png);
+    background-repeat: repeat;
+    height: auto;
+}
+
+.promo-parallax {
+    background-image: url(../../img/parallax/promo_para.jpg);
+    background-repeat: repeat;
+    height: auto;
+    background-attachment: fixed;
+}
