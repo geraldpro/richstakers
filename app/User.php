@@ -28,13 +28,13 @@ class User extends Authenticatable
      */
     protected $rules = [
         'create' => [
-            
+
             'first_name' => 'min:2|required',
             'last_name' => 'min:3',
             'email' => 'unique:users',
             'password' => 'confirmed',
 
-            
+
         ],
         'update' => [
 
@@ -51,8 +51,26 @@ class User extends Authenticatable
     ];
 
 
-    public function bet(){
+  public function role()
+        {
+            return $this->belongsToMany('App\Role');
+        }
 
-   return $this->belongsToMany('App\bet','bet_id');
+
+    public function isAdmin(){
+      if($this->role->name =='Admin'){
+          return true;
+        }
+         return false;      
+    }
+
+
+
+
+
+
+   public function bet(){
+
+     return $this->belongsToMany('App\bet','bet_id');
     }
 }

@@ -9,7 +9,7 @@ use App\Bet;
 
 use App\Http\Controllers\Controller;
 
-class UserController extends Controller
+class PagesController extends Controller
 
 
 

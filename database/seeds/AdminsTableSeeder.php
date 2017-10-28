@@ -12,8 +12,8 @@ class AdminsTableSeeder extends Seeder
     public function run()
     {
         DB::table('admins')->insert([
-           'email' => 'fgnaija@yahoo.com',
-            'password' => bcrypt('secret'),
+           'email' => 'frank@richstakers.com',
+            'password' => bcrypt('franky'),
         ]);
     }
 }

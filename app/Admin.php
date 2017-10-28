@@ -8,14 +8,13 @@ class admin extends Model
 {
     //
     protected $table = 'admins';
- 	protected $fillable = ['email','password'];
+ 	  protected $fillable = ['email','password'];
 
     public function match(){
-    
+
     return $this->hasMany('App\Match','match_id');
 
-   } 
+   }
 
 
 }
-

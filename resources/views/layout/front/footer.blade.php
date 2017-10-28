@@ -69,17 +69,17 @@
     <!--footer 1 end-->
 
     <!-- Placed js at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/menuzord.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.isotope.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/visible.js"></script>
-    <script src="js/smooth.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/imagesloaded.js"></script>
+    {{ HTML::script("js/jquery-1.10.2.min.js") }}
+    {{ HTML::script("js/bootstrap.min.js") }}
+    {{ HTML::script("js/menuzord.js") }}
+    {{ HTML::script("js/jquery.flexslider-min.js") }}
+    {{ HTML::script("js/owl.carousel.min.js") }}
+    {{ HTML::script("js/jquery.isotope.js") }}
+    {{ HTML::script("js/jquery.magnific-popup.min.js") }}
+    {{ HTML::script("js/jquery.countTo.js") }}
+    {{ HTML::script("js/visible.js") }}
+    {{ HTML::script("js/smooth.js") }}
+    {{ HTML::script("js/wow.min.js") }}
+    {{ HTML::script("js/imagesloaded.js") }}
     <!--common scripts-->
-    <script src="js/scripts.js?6"></script>
+    {{ HTML::script("js/scripts.js?6") }}
